@@ -91,8 +91,11 @@ public class Reporting2 {
         for (int i = 0; i < 3; i++){
             data[i] = Sorting.heapSort(copy);
             
+            /* Write the sorted array to the file */
             if (i == 0){
-                b.write(Arrays.toString(copy));
+                for (int a = 0; a < copy.length; a++){
+                    b.write(copy[a] + "\n");
+                }
             }
             copy = scanFile(file);
         }
@@ -124,8 +127,11 @@ public class Reporting2 {
         for (int i = 0; i < 3; i++){
             data[i] = Sorting.quickSort(copy);
             
+            /* Write the sorted array to the file */
             if (i == 0){
-                b.write(Arrays.toString(copy));
+                for (int a = 0; a < copy.length; a++){
+                    b.write(copy[a] + "\n");
+                }
             }
             copy = scanFile(file);
         }
@@ -158,8 +164,11 @@ public class Reporting2 {
         for (int i = 0; i < 3; i++){
             data[i] = Sorting.mergeSort(copy);
             
+            /* Write the sorted array to the file */
             if (i == 0){
-                b.write(Arrays.toString(copy));
+                for (int a = 0; a < copy.length; a++){
+                    b.write(copy[a] + "\n");
+                }
             }
             copy = scanFile(file);
         }
