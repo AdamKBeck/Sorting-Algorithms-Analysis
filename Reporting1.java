@@ -427,6 +427,7 @@ public class Reporting1 {
         /* divides by n-1 to calculate variance */
         return (sum / arr.length-1);
     }
+    
     /**
      * Main method to run the testing.
      * @param args
