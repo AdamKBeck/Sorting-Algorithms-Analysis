@@ -230,7 +230,7 @@ public class Reporting1 {
      */
     public void randomFill(int[] arr){
         Random rand = new Random();
-        
+        rand.setSeed(System.nanoTime());
         for (int i = 0; i < arr.length; i++){
             arr[i] = rand.nextInt();
         }   
@@ -249,42 +249,42 @@ public class Reporting1 {
         System.out.println(" HS Sorted array size 1000:" + sortedArrayResults[0][0][0]);
         System.out.println(" HS Sorted array size 10000:" + sortedArrayResults[0][1][0]);
         System.out.println(" HS Sorted array size 100000:" + sortedArrayResults[0][2][0]);
-        System.out.println(" HS Sorted array size 100000:" + sortedArrayResults[0][3][0]);
+        System.out.println(" HS Sorted array size 1000000:" + sortedArrayResults[0][3][0]);
         
         System.out.println();
         
         System.out.println(" QS Sorted array size 1000:" + sortedArrayResults[1][0][0]);
         System.out.println(" QS Sorted array size 10000:" + sortedArrayResults[1][1][0]);
         System.out.println(" QS Sorted array size 100000:" + sortedArrayResults[1][2][0]);
-        System.out.println(" QS Sorted array size 100000:" + sortedArrayResults[1][3][0]);
+        System.out.println(" QS Sorted array size 1000000:" + sortedArrayResults[1][3][0]);
         
         System.out.println();
         
         System.out.println(" MS Sorted array size 1000:" + sortedArrayResults[2][0][0]);
         System.out.println(" MS Sorted array size 10000:" + sortedArrayResults[2][1][0]);
         System.out.println(" MS Sorted array size 100000:" + sortedArrayResults[2][2][0]);
-        System.out.println(" MS Sorted array size 100000:" + sortedArrayResults[2][3][0]);
+        System.out.println(" MS Sorted array size 1000000:" + sortedArrayResults[2][3][0]);
         
         System.out.println();
         
         System.out.println(" HS Reversed array size 1000:" + reverseArrayResults[0][0][0]);
         System.out.println(" HS Reversed array size 10000:" + reverseArrayResults[0][1][0]);
         System.out.println(" HS Reversed array size 100000:" + reverseArrayResults[0][2][0]);
-        System.out.println(" HS Reversed array size 100000:" + reverseArrayResults[0][3][0]);
+        System.out.println(" HS Reversed array size 1000000:" + reverseArrayResults[0][3][0]);
         
         System.out.println();
         
         System.out.println(" QS Reversed array size 1000:" + reverseArrayResults[1][0][0]);
         System.out.println(" QS Reversed array size 10000:" + reverseArrayResults[1][1][0]);
         System.out.println(" QS Reversed array size 100000:" + reverseArrayResults[1][2][0]);
-        System.out.println(" QS Reversed array size 100000:" + reverseArrayResults[1][3][0]);
+        System.out.println(" QS Reversed array size 1000000:" + reverseArrayResults[1][3][0]);
         
         System.out.println();
         
         System.out.println(" MS Reversed array size 1000:" + reverseArrayResults[2][0][0]);
         System.out.println(" MS Reversed array size 10000:" + reverseArrayResults[2][1][0]);
         System.out.println(" MS Reversed array size 100000:" + reverseArrayResults[2][2][0]);
-        System.out.println(" MS Reversed array size 100000:" + reverseArrayResults[2][3][0]);
+        System.out.println(" MS Reversed array size 1000000:" + reverseArrayResults[2][3][0]);
         
         System.out.println();
         

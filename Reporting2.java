@@ -94,7 +94,7 @@ public class Reporting2 {
             /* Write the sorted array to the file */
             if (i == 0){
                 for (int a = 0; a < copy.length; a++){
-                    b.write(copy[a] + "\n");
+                    b.write(copy[a] + System.getProperty("line.separator"));
                 }
             }
             copy = scanFile(file);
@@ -130,7 +130,7 @@ public class Reporting2 {
             /* Write the sorted array to the file */
             if (i == 0){
                 for (int a = 0; a < copy.length; a++){
-                    b.write(copy[a] + "\n");
+                    b.write(copy[a] + System.getProperty("line.separator"));
                 }
             }
             copy = scanFile(file);
@@ -167,7 +167,7 @@ public class Reporting2 {
             /* Write the sorted array to the file */
             if (i == 0){
                 for (int a = 0; a < copy.length; a++){
-                    b.write(copy[a] + "\n");
+                    b.write(copy[a] + System.getProperty("line.separator"));
                 }
             }
             copy = scanFile(file);
