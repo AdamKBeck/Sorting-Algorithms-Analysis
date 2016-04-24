@@ -225,7 +225,7 @@ public class Reporting1 {
     /**
      * Helper method to randomly fill a passed array with random values.
      * Since the range of values was not specified in the assignment, I am filling
-     * the array with values anywhere from from 0 to 2^32 as defined by nextInt().
+     * the array with values of any integer, defined by nextInt().
      * @param arr
      */
     public void randomFill(int[] arr){
@@ -288,6 +288,7 @@ public class Reporting1 {
         
         System.out.println();
         
+        /* All data for the ten trials on the 3 types of sorts */
         System.out.println("These are all the 10 trials for the random array testing");
         System.out.println();
         
@@ -445,7 +446,6 @@ public class Reporting1 {
         }
         
         Reporting1 testing = new Reporting1();
-        System.out.print("Sorting, please wait...");
         testing.run();
     }
 
